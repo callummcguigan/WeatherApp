@@ -11,6 +11,8 @@
       var icon = data.weather[0].icon;
       var iconurl = "http://openweathermap.org/img/w/" + icon + ".png";
 
+
+      $(".icon").html('<img id="icon" src="..." class="card-img-top" alt="">');
       $('#city').html(city);
       $('#temp').html(temp + '&#176;');
       $('#desc').html(desc);
